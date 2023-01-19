@@ -11,27 +11,7 @@ const GeoOk  = async (position) => {
     const lon = position.coords.longitude;
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
     const countryUrl = `http://api.openweathermap.org/geo/1.0/direct?q=Seoul&limit=5&appid=${API_KEY}`;
-    //const cUrl = `http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}`;
-    
-    // const fetchWeatherAPI =async (url) => {
-    //   const Data = await(
-    //         await fetch(url)
-    //     ).json()
-    //    return Data
-    // }
-
-    // fetchWeatherAPI(countryUrl);
-
-    // const weatherNameData = fetchWeatherAPI(countryUrl);
-
-    // console.log(weatherNameData)
-    
-
-    // const countryName = cData.country;
-    // console.log(countryName);
-    // const cityName2 = cData.name;
-    // console.log(cityName2);
-
+   
 
     const fetchApi = async (url) => {
         const Data = await(
