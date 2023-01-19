@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csss/index.css">
+    <link rel="stylesheet" href="csss/reset.css">
+    <link rel="stylesheet" href="csss/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d29b18ac99.js" crossorigin="anonymous"></script>
+    <title>momentum</title>
+</head>
+<body>
+    <header id="login-form">
+        <form id="form">
+            <input id="name" type="text" placeholder="이름을 입력해주세요.">
+            <input id="subname" type="submit" value="이름 제출">
+        </form>
+    </header>
+    <div id="wCity">
+        <div>
+            <img id="img1">
+            <span id="weathertemp"></span><i id="tempIcon" class="fa-solid fa-temperature-three-quarters"></i>
+            <div>
+                <span id="counTry"></span>
+                <span id="city"></span>
+            </div>
+        </div>
+        <div class="listBox">    
+            <div>
+                <form class="submitV">
+                    <input type="text" id="inputValue">
+                    <input type="submit" value="입력" id="submitValue">
+                </form>
+            </div>
+            <div id="todoList"></div>
+        </div>    
+    </div>
+    
+    
+    <div class="main">
+        <span id="clock"></span>
+        <span id="myName"></span>
+    </div>
+    <div class="quoteBox">
+        <span id="verse"></span>
+        <span id="chapter"></span>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/learn.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
