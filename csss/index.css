@@ -5,9 +5,13 @@
 }
 body{
     text-align: center;
-    font-family: 'Cute Font', cursive;
-    color: #FFD55E;
+    
+    color: #00FF00;
     background-size: cover;
+}
+#img1{
+    width: 40px;
+    height: 40px;
 }
 .main{
     display: flex;
@@ -24,7 +28,7 @@ input {
     border-radius: 15px;
     outline: none;
     padding-left: 10px;
-    background-color: #FFD55E;
+    background-color: #00FF00;
   }
 #clock{
     font-size: 8rem;
@@ -36,6 +40,10 @@ input {
 #wCity{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
+}
+.cCc{
+    font-size: 20px;
 }
 #tempIcon{
     font-size: 26px;
@@ -47,9 +55,7 @@ input {
 #weathertemp{
     font-size: 30px;
 }
-#city{
-    font-size: 15px;
-}
+
 .listBox{
     flex-direction: column;
 }
@@ -65,10 +71,10 @@ input {
     flex-direction: column;
 }
 #verse{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 0;
 }
 #chapter{
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 15px 0;
 }

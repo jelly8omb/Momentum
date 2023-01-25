@@ -1,7 +1,10 @@
+import { API_KEY } from './apikey.js';
+
+
+
 const img1 = document.getElementById('img1');
 const weathertemp = document.getElementById('weathertemp');
 const counTry = document.getElementById('counTry');
-const API_KEY = 'c8066bf9271818b773cd0e7f9d156722';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}';
 const getName = localStorage.getItem("userName");
 
@@ -35,7 +38,6 @@ const GeoOk  = async (position) => {
 
 
     const city = document.getElementById('city');
-    city.innerText = `${getName}님의 현재 위치는 ${cityName}`
     
     
     
